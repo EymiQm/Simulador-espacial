@@ -1,11 +1,12 @@
-#BUCLE PRINCIPAL
+#=========================
+#Bucle Principal
+#==========================
 
 while day <= 10:
 
     print("\n==============================")
-    print("DAY:", day)
+    print("DAY", day)
     print("==============================")
-
     print("Population:", population)
     print("Previous Day Status:")
     print("Health:", health)
@@ -13,18 +14,11 @@ while day <= 10:
     print("Batteries:", batteries)
     print("Spare Parts:", spare_parts)
 
+    # =========================
     # CONSUMO AUTOMÁTICO
+    # =========================
 
-    print("\nCalculating daily consumption...")
-
-    # consumo de oxigeno por persona
-    oxygen_consumption = population * 3
-
-    # aplicar consumo
-    oxygen = oxygen - oxygen_consumption
-
-    # consumo de salud
-    health = health - 5
-
-    # consumo de baterias
-    batteries = batteries - 5
+# El consumo del oxigeno se vera afectado por la poblacion
+    oxygen -= population * 3
+    health -= 5
+    batteries -= 5
