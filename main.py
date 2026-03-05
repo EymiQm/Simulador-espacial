@@ -1,6 +1,14 @@
-f oxygen == 0 or health == 0:
+# =========================
+# GAME OVER
+# =========================
+
+    if oxygen == 0 or health == 0:
         print("\nGAME OVER ❌")
         break
+
+# =========================
+# SIGUIENTE DÍA 
+# =========================
 
     next_day = ""
 
