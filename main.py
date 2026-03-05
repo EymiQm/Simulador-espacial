@@ -1,10 +1,21 @@
-CONFIGURATION ACCORDING TO LEVEL
+# =========================
+# CONFIGURATION ACCORDING TO LEVEL
+# =========================
 
-    if difficulty == "1":
-    oxygen, batteries, spare_parts, health = 100, 100, 100, 100
+if difficulty == "1":
+    oxygen = 100
+    batteries = 100
+    spare_parts = 100
+    health = 100
 
 elif difficulty == "2":
-    oxygen, batteries, spare_parts, health = 95, 90, 90, 90
+    oxygen = 75
+    batteries = 75
+    spare_parts = 75
+    health = 75
 
 else:
-    oxygen, batteries, spare_parts, health = 90, 60, 60, 70
+    oxygen = 50
+    batteries = 50
+    spare_parts = 50
+    health = 50
