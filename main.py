@@ -15,4 +15,4 @@ while difficulty != "1" and difficulty != "2" and difficulty != "3":
     difficulty = input("Enter option (1-3): ")
     
     if difficulty != "1" and difficulty != "2" and difficulty != "3":
-        print("option failed, please enter again.")
+        print("Invalid option. Try again.\n.")
