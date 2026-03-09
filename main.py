@@ -25,3 +25,13 @@ else:
 
         elif normal_event == 7:
             print("Normal Event: Exercise session completed.")
+               
+        elif normal_event == 8:
+            print("Normal Event: Crew shares stories.")
+
+        elif normal_event == 9:
+            print("Normal Event: Calm and stable day.")
+
+        elif normal_event == 10:
+            print("Normal Event: Earth sends encouraging message.")
+
