@@ -336,6 +336,8 @@ while day <= 10:
 
 # =========================
 # FINAL DEL JUEGO = 
+
+#prueba pull request
 # =========================
 
 if day > 10 and oxygen > 0 and health > 0:
